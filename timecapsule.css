@@ -1,0 +1,110 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+  background-color: black;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  width: 200;
+  letter-spacing: 4px;
+}
+
+nav a:link, a:visited {
+  color: white;
+  text-decoration: none;
+  font-family: 'Cardo', serif;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+main {
+  position: relative;
+  top: 76px;
+  margin: 0px 60px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 3.125rem;
+  margin: 0px;
+}
+
+p {
+  font-family: 'Manrope', sans-serif;
+}
+
+span {
+color: black;
+}
+
+.anchor {
+    display: block;
+    height: 50px;
+    margin-top: -50px;
+    visibility: hidden;
+}
+
+.one, .two, .three, .four, .five, .six {
+  margin: 10px 0;
+  padding: 10px 5px;
+}
+
+.one {
+ color: white;
+ background-color: #205072;
+}
+
+.two {
+ background-color: #329D9C;
+}
+
+.three {
+ background-color: #56C596;
+}
+
+.four {
+ background-color: #7BE495;
+}
+
+.five {
+ background-color: #CFF4D2;
+}
+
+.six {
+ background-color: #E0ECDE;
+}
+
+
+footer {
+  position: relative;
+  top: 450px;
+  background-color: #CCE1F2;
+  padding: 2px 20px;
+}
+
+footer p {
+  text-align: center;
+  color: black;
+}
+
+footer a {
+      text-decoration: none;
+}
